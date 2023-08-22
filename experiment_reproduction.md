@@ -77,7 +77,6 @@ do
     ./CAmpactor -i cnf_benchmarks/${benchmark} --init_PCA_path main_competitors/${benchmark}_by_FastCA_PCA.out -o ${benchmark}_alt-F_PCA.out
     # alt-T
     ./CAmpactor -i cnf_benchmarks/${benchmark} --init_PCA_path main_competitors/${benchmark}_by_TCA_PCA.out -o ${benchmark}_alt-T_PCA.out
-    
     rm main_competitors/${benchmark}_by_AutoCCAG_PCA.out main_competitors/${benchmark}_by_FastCA_PCA.out main_competitors/${benchmark}_by_TCA_PCA.out
 done
 ```
