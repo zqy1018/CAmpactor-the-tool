@@ -7,7 +7,7 @@ As is described in the paper, *CAmpactor* itself is a tool for optimizing a give
 **Note**: the *CAmpactor* in this repository is a more user-friendly version, compared with the original version (*i.e.,* the version at the time of paper submission) in [this repository](https://github.com/chuanluocs/CAmpactor). Remarkably, the core algorithmic implementation of *CAmpactor* in the `src/` directory ***is not modified***. The major differences between this version and the original version are listed as follows. 
 - This repository contains a parser for the [CTWedge input language](https://github.com/fmselab/ctwedge/wiki/Grammar) and an accompanying Python3 script, allowing users to write human-readable input files for describing the system under test and to obtain human-readable CSV files for describing the PCA. See [this section](#a-more-user-friendly-approach) for more details. 
 - This repository contains fewer redundant files that are not necessary for *CAmpactor* to reduce the repository size. In particular, many files related to only *SamplingCA* have been removed (*e.g.,* the testing instances and experimental results of *SamplingCA*). Users may refer to [the original repository of *SamplingCA*](https://github.com/chuanluocs/SamplingCA) for its complete version. 
-- This repository contains additional instructions that may make the reproduction of experiments easier.
+- This repository contains additional instructions that may make the reproduction of experiments easier. See [experiment_reproduction.md](experiment_reproduction.md). 
 
 ## Instructions for Building *CAmpactor*
 
