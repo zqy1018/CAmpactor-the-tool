@@ -67,7 +67,7 @@ An example of running `simple_run.sh`:
 bash simple_run.sh 1 cnf_benchmarks/linux.cnf linux_PCA.out
 ```
 
-The command above calls *SamplingCA* to solve the instance `cnf_benchmarks/linux.cnf` with default hyper-parameter settings, and then calls *CAmpactor* to optimize the initial PCA with default hyper-parameter settings. The result is stored in `linux_PCA.out`. And here both *SamplingCA* and *CAmpactor* uses random seed 1. Users may refer to [INSTALL.md](INSTALL.md) to understand the console output via a simpler example. For understanding the format of the output PCA, users may check [the README file in the `examples/` directory](examples/README.md). 
+The command above calls *SamplingCA* to solve the instance `cnf_benchmarks/linux.cnf` with default hyper-parameter settings, and then calls *CAmpactor* to optimize the initial PCA with default hyper-parameter settings. The result is stored in `linux_PCA.out`. Here, both *SamplingCA* and *CAmpactor* use random seed 1. Users may refer to [INSTALL.md](INSTALL.md#quick-installation-testing) to understand the console output via a simpler example. For understanding the format of the output PCA, users may check [the README file in the `examples/` directory](examples/README.md). 
 
 ## How to Use *CAmpactor*
 
@@ -85,7 +85,7 @@ In order to adopt this approach, the user should first compile *SamplingCA* and 
 bash build_parser.sh
 ```
 
-We have prepared a Python3 script file `ctw_run.py` for running the parser, *SamplingCA* and *CAmpactor* in an end-to-end manner. The usage of `ctw_run.py` is as follows. 
+We have prepared a Python3 script file `ctw_run.py` for running the parser, *SamplingCA* and *CAmpactor* in an end-to-end manner. The usage of `ctw_run.py` is shown as follows. 
 
 ```
 python3 ctw_run.py [INSTANCE_PATH] [OUTPUT_PCA_PATH]
