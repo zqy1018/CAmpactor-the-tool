@@ -1,4 +1,6 @@
 .vscode/
-*_testcase_set.txt
+*_PCA.out
+*_PCA.csv
 CAmpactor
+ctw_parser
 .DS_Store
